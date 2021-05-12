@@ -6,4 +6,3 @@ USDT_TRC20 充值API
 ## 联系
 - Telegram: [uu](https://t.me/hmcoinservice)
 - Email: hmcoasihdo@outlook.com
-- 
