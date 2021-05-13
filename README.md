@@ -15,10 +15,16 @@ USDT_TRC20 充值API
 ### 提币归集,自动转币
 > 申请提币, 系统归集多地址下的数字货币, 扣除手续费后, 自动提取到指定地址
 
+### 匿名
+>匿名收款,定时更换收款地址,不影响提币归集
+
+
 ## 重要
 > 系统测试中,免收手续费,自行负责归集消耗
 
 
 ## 联系
+
+- QQ:[2746369448](https://wpa.qq.com/msgrd?v=3&uin=2746369448&site=qq&menu=yes)
 - Telegram: [uu](https://t.me/hmcoinservice)
 - Email: hmcoasihdo@outlook.com
