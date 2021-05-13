@@ -92,16 +92,19 @@
 ##### 请求示例
 - 
 ``` 
-{notifyurl} + ?mchid=10000&orderno=RP1311200898053056&outorderno=afZDTYgn3pvsX1Wi&amount=100&attach=Test&sign=3b1f2c2132f24256ab4dcb030c397dd5
+{notifyurl} + ?mchid=10000&orderno=RP1311200898053056&outorderno=afZDTYgn3pvsX1Wi
+&amount=100&attach=Test&sign=3b1f2c2132f24256ab4dcb030c397dd5
 ```
 
 ##### 返回参数说明 
 
-成功返回```ok```
+成功返回  ok
+失败返回  err
 
 ##### 返回示例 
 
-``` ok
+```
+ok
 ```
 
 
