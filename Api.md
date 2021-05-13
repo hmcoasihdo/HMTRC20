@@ -1,3 +1,4 @@
+### 请求参数
 
 ##### 请求URL
 -  ` http://{url}/Payment/CreateTrade `
@@ -18,7 +19,7 @@
 
 - ` MD5(useruin + time + 密钥)`
 
-#####请求参数
+##### 请求参数
 - 
 ``` 
 http://{url}/interface/tp?route=GetScoreTT&useruin=3971f3a9a18947779eecfbde3da7cc7&time=1619074527080
