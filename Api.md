@@ -66,6 +66,46 @@
 }
 ```
 
+## 回调通知
+
+##### 请求URL
+-  ` {notifyurl} `
+  
+##### 请求方式
+- ` Get ` 
+
+##### 参数
+
+|参数名|参数示例|参数说明|
+|:----|:----|:-----
+|mchid | 10000 |  商户Id
+|orderno | RP1311200898053056 | 商户订单号
+|outorderno | afZDTYgn3pvsX1Wi | 商户订单号
+|amount | 100 | 金额(单位为分,整型)
+|attach | Test | 备注
+|sign | MD5加密32位小写 | 签名规则如下
+
+##### 签名规则
+
+- ` MD5(mchid + orderno + outorderno + amount + attach + Md5Key)`
+
+##### 请求示例
+- 
+``` 
+{notifyurl} + ?mchid=10000&orderno=RP1311200898053056&outorderno=afZDTYgn3pvsX1Wi&amount=100&attach=Test&sign=3b1f2c2132f24256ab4dcb030c397dd5
+```
+
+##### 返回参数说明 
+
+成功返回ok
+
+##### 返回示例 
+
+``` 
+	ok
+
+```
+
 
 
 
