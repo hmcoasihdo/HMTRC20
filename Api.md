@@ -29,12 +29,12 @@
 {
 	"mchid": "10000",
 	"outorderno": "afZDTYgn3pvsX1Wi",
-  "amount": 100,
-  "type": "USDT_TRC20",
-  "mode": "CNY",
-  "notifyurl": "http://127.0.0.1/notifyurl",
-  "attach": "Test",
-  "sign": "3b1f2c2132f24256ab4dcb030c397dd5"
+	"amount": 100,
+	"type": "USDT_TRC20",
+	"mode": "CNY",
+	"notifyurl": "http://127.0.0.1/notifyurl",
+	"attach": "Test",
+	"sign": "3b1f2c2132f24256ab4dcb030c397dd5"
 }
 ```
 
@@ -44,25 +44,25 @@
 |:-----  |:-----|-----|
 |result | ok |返回值 |
 |msg | 创建成功 | 返回信息|
-|url | 收银台地址 | 返回信息|
+|url |  | 收银台地址|
 |data |  | 返回数据|
 
 ##### 返回示例 
 
 ``` 
 {
-  "result": "ok",
-  "msg": "创建成功",
-  "url": "http://127.0.0.1/cash.html?p=eyJvaWQiOiJBWTEzMTIwMDA2MzA",
-  "data": {
-    "oid": "AY1312000630729477",(系统订单号)
-    "sid": "TCVaHWyxYyixWh8gtek4GSNnu8E44eGdvx",(接受地址)
-    "amt": "10",(订单金额)
-    "ramt": "1.55",(实收数量)
-    "mode": "CNY",(货币类型)
-    "cr": 6.46,(下单汇率)
-    "t": "2021-05-13 12:10:06"(订单过期时间)
-  }
+	"result": "ok",
+	"msg": "创建成功",
+	"url": "http://127.0.0.1/cash.html?p=eyJvaWQiOiJBWTEzMTIwMDA2MzA",
+	"data": {
+		"oid": "AY1312000630729477",(系统订单号)
+		"sid": "TCVaHWyxYyixWh8gtek4GSNnu8E44eGdvx",(接受地址)
+		"amt": "10",(订单金额)
+		"ramt": "1.55",(实收数量)
+		"mode": "CNY",(货币类型)
+		"cr": 6.46,(下单汇率)
+		"t": "2021-05-13 12:10:06"(订单过期时间)
+	}
 }
 ```
 
