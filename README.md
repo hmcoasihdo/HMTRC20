@@ -25,6 +25,6 @@ USDT_TRC20 充值API
 
 ## 联系
 
-- QQ:[2746369448](https://wpa.qq.com/msgrd?v=3&uin=2746369448&site=qq&menu=yes)
+- Email: hmcoasihdo@outlook.com(请使用邮箱联系)
 - Telegram: [uu](https://t.me/hmcoinservice)
-- Email: hmcoasihdo@outlook.com
+
